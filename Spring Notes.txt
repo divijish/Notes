@@ -1,0 +1,7 @@
+1. web.xml is called Deployment Descriptor.
+2. When no configurations are mentioned then maven looks for dispatcher-servlet.xml in \src\main\webapp\WEB-INF folder for dispatcher servlet.
+3. But this property can be altered using contextConfigLocation parameter.
+4. Any name can be given to dispatcher servlet then. Application Context is usually used this way with wild card *.
+5. Listener is used to specify root applicationContext.It is called ContextLoaderListener. It searches for file applicationContext.xml in WEBINF folder.
+6. This can be changed using <context-param> tag same as with dispatcher-servlet.xml using contextConfigLocation parameter.
+7. Beans in 
